@@ -1,0 +1,13 @@
+{
+    "appPageId": "20efd16e-155d-d95f-bdb1-4705d937e38e",
+    "appPageName": "dialogdel",
+    "componentName": "dialogdelComponent",
+    "selectorName": "bh-dialogdel",
+    "htmlFileName": "dialogdel.template.html",
+    "tsFileName": "dialogdel.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

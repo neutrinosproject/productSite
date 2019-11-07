@@ -1,0 +1,13 @@
+{
+    "appPageId": "b02decc9-c8c1-476e-93a8-0dc72d2e2e15",
+    "appPageName": "addmember",
+    "componentName": "addmemberComponent",
+    "selectorName": "bh-addmember",
+    "htmlFileName": "addmember.template.html",
+    "tsFileName": "addmember.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

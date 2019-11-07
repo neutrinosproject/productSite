@@ -1,0 +1,75 @@
+<div fxLayout="row wrap" style="height:100%;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+  <div fxLayout="column wrap" style="width:100%;" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+    <mat-card style="height:530px;width:390px;">
+      <mat-card-content>
+        <div fxLayout="column wrap" style="width:100%;" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+          <h1>
+            Add Members</h1>
+        </div>
+        <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+          <form>
+            <div fxLayout="column wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+              <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+                <div fxLayout="column wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+                  <mat-form-field style="width:100%;" [appearance]="&apos;outline&apos;" [floatLabel]="&apos;always&apos;">
+                    <input matInput type="text" placeholder="FirstName" required>
+                    <mat-label>First Name</mat-label>
+                    <mat-icon matSuffix>person</mat-icon>
+                  </mat-form-field>
+                </div>
+              </div>
+              <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+                <div fxLayout="column wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+                  <mat-form-field style="width:100%;" [appearance]="&apos;outline&apos;" [floatLabel]="&apos;always&apos;">
+                    <input matInput type="text" placeholder="LastName" required>
+                    <mat-label>LastName</mat-label>
+                    <mat-icon matSuffix>person</mat-icon>
+                  </mat-form-field>
+                </div>
+              </div>
+              <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+                <div fxLayout="column wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+                  <mat-form-field style="width:100%;" [appearance]="&apos;outline&apos;" [floatLabel]="&apos;always&apos;">
+                    <input matInput type="number" placeholder="Age" required>
+                    <mat-label>Age</mat-label>
+                    <mat-icon matSuffix>person</mat-icon>
+                  </mat-form-field>
+                </div>
+              </div>
+              <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+                <div fxLayout="column wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+                  <mat-form-field style="width:100%;" [appearance]="&apos;outline&apos;" [floatLabel]="&apos;always&apos;">
+                    <input matInput type="number" placeholder="MobileNumber" required>
+                    <mat-label>MobileNumber</mat-label>
+                    <mat-icon matSuffix>phone</mat-icon>
+                  </mat-form-field>
+                </div>
+              </div>
+              <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+                <div fxLayout="column wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+                  <mat-form-field style="width:100%;" [appearance]="&apos;outline&apos;" [floatLabel]="&apos;always&apos;">
+                    <input matInput type="email" placeholder="Email" required>
+                    <mat-label>Email</mat-label>
+                    <mat-icon matSuffix>email</mat-icon>
+                  </mat-form-field>
+                </div>
+              </div>
+              <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+                <div fxLayout="column wrap" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+                  <mat-radio-group [labelPosition]="&apos;after&apos;">Gender: <mat-radio-button required>Male</mat-radio-button>
+                    <mat-radio-button required [labelPosition]="&apos;after&apos;">Female</mat-radio-button>
+                  </mat-radio-group>
+                </div>
+              </div>
+              <div fxLayout="row wrap" style="margin-top:15px; " fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+                <div fxLayout="column wrap" style="margin:5px;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><button mat-raised-button style="background-color:#ff3333;color:white;width:50px;">ADD</button></div>
+                <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><button mat-raised-button style="background-color:#ff3333;color:white;width:150px;">ADD MEMBER</button></div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </mat-card-content>
+    </mat-card>
+    <router-outlet></router-outlet>
+  </div>
+</div>

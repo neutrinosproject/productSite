@@ -1,0 +1,46 @@
+{
+    "routes": [
+        {
+            "component": "loginComponent",
+            "path": "login"
+        },
+        {
+            "component": "homeComponent",
+            "path": "home",
+            "children": [
+                {
+                    "path": "addmember",
+                    "component": "addmemberComponent"
+                }
+            ]
+        },
+        {
+            "path": "addmember",
+            "component": "addmemberComponent",
+            "children": [
+                {
+                    "component": "addmemberComponent",
+                    "path": "addmember"
+                }
+            ]
+        },
+        {
+            "component": "dialogComponent",
+            "path": "dialog"
+        },
+        {
+            "component": "dialogdelComponent",
+            "path": "dialogdel"
+        },
+        {
+            "path": "''",
+            "redirectTo": "/login",
+            "pathMatch": "full",
+            "default": true
+        },
+        {
+            "path": "**",
+            "component": "PageNotFoundComponent"
+        }
+    ]
+}

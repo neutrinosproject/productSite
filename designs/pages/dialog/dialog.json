@@ -1,0 +1,13 @@
+{
+    "appPageId": "ae6a57e6-404e-fcd6-7a94-c8ae075380af",
+    "appPageName": "dialog",
+    "componentName": "dialogComponent",
+    "selectorName": "bh-dialog",
+    "htmlFileName": "dialog.template.html",
+    "tsFileName": "dialog.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

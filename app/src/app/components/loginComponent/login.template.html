@@ -1,0 +1,40 @@
+<div fxLayout="row " style="background-color:#e6e6e6;height:100%;" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false" LayoutFill="Fill">
+  <div fxLayout="column " style="width:100%;" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false" fxFlex.sm="40" fxFlex.md="30" fxFlex.gt-md="35" fxFlex.xs="70">
+    <mat-card layoutdirection="center" style="margin-top:30px;box-shadow: 5px 10px 18px #888888;" class="login-card">
+      <mat-card-content>
+        <div fxLayout="row wrap" fxLayoutAlign="center none" [fxShow]="true" [fxHide]="false">
+          <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false"><img imgSrc="Web/Icons/favicon.ico" class="card-image">
+            <h2 style="align:center;">
+              Sign in</h2>
+          </div>
+        </div>
+        <div fxLayout="column " fxLayoutAlign=" " [fxShow]="true" [fxHide]="false">
+          <form>
+            <div fxLayout="column " fxLayoutGap="20px" fxLayoutAlign=" " [fxShow]="true" [fxHide]="false">
+              <div fxLayout="row " fxLayoutAlign="start center" [fxShow]="true" [fxHide]="false">
+                <div fxLayout="column " fxFlex="90" fxLayoutAlign=" " [fxShow]="true" [fxHide]="false">
+                  <mat-form-field style="width:295px;" [appearance]="&apos;outline&apos;" [floatLabel]="&apos;always&apos;">
+                    <input matInput placeholder="Email" required>
+                    <mat-label>Email</mat-label>
+                    <mat-icon matSuffix>email</mat-icon>
+                  </mat-form-field>
+                </div>
+              </div>
+              <div fxLayout="row wrap" fxLayoutAlign="start center" [fxShow]="true" [fxHide]="false">
+                <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+                  <mat-form-field style="width:295px;" [appearance]="&apos;outline&apos;" [floatLabel]="&apos;always&apos;">
+                    <input matInput placeholder="Password" required>
+                    <mat-label>Password</mat-label>
+                    <mat-icon matSuffix>lock</mat-icon>
+                  </mat-form-field>
+                </div>
+              </div>
+              <div fxLayout="row " fxFlex="100" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false"><button mat-raised-button style="font-size:20px;height:40px;border-radius:10px;background-color:#ff3333;color:white;width:300px;" class="primary-red-btn" color="accent" (click)="authenticate()" [disabled]="false" [disableRipple]="false" type="text">Login</button></div>
+              <div fxLayout="row " fxFlex="100" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false"><button mat-raised-button style="font-size:20px;height:40px;background-color:black;color:white;width:300px;border-radius:10px;" class="primary-red-btn" (click)="authenticate()">Signup</button></div>
+            </div>
+          </form>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

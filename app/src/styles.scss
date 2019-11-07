@@ -1,0 +1,15 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+
+.sidenav-content {
+ flex-basis:10%;
+ height:100px;
+ width: 15%;
+}
+.sidenav-container {
+ flex-basis:10%;
+ height:100px;
+ width: 100%;
+}

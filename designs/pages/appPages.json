@@ -1,0 +1,32 @@
+{
+    "15b267ca-428e-c568-6e61-71290b2a295d": {
+        "appPageName": "home",
+        "componentName": "homeComponent",
+        "isEntry": false
+    },
+    "1de56631-e8f9-be05-24e0-14f01f1f1546": {
+        "appPageName": "login",
+        "componentName": "loginComponent",
+        "isEntry": false
+    },
+    "22ac7674-1d00-85ef-9f63-2083dac04fb1": {
+        "appPageName": "signup",
+        "componentName": "signupComponent",
+        "isEntry": false
+    },
+    "b02decc9-c8c1-476e-93a8-0dc72d2e2e15": {
+        "appPageName": "addmember",
+        "componentName": "addmemberComponent",
+        "isEntry": false
+    },
+    "ae6a57e6-404e-fcd6-7a94-c8ae075380af": {
+        "appPageName": "dialog",
+        "componentName": "dialogComponent",
+        "isEntry": false
+    },
+    "20efd16e-155d-d95f-bdb1-4705d937e38e": {
+        "appPageName": "dialogdel",
+        "componentName": "dialogdelComponent",
+        "isEntry": false
+    }
+}
